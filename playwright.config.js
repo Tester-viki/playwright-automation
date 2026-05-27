@@ -5,5 +5,9 @@ module.exports = defineConfig({
     headless: false,
     browserName: 'chromium',
     channel: 'chrome',
+    viewport: null,
+    launchOptions: {
+      args: ['--start-maximized'],
+    },
   },
 });
